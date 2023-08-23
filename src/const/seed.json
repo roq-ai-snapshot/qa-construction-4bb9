@@ -1,0 +1,2022 @@
+[
+  {
+    "id": [
+      {
+        "id": "6a79b1b7-e3fb-44a0-976b-7e1bb7f66b62",
+        "created_at": "2023-08-22T23:02:45.444Z",
+        "updated_at": "2023-08-22T05:47:16.227Z"
+      },
+      {
+        "id": "6ba60344-3dda-4f51-85e7-afa24a74f66e",
+        "created_at": "2023-08-23T00:51:14.117Z",
+        "updated_at": "2023-08-23T01:28:54.596Z"
+      },
+      {
+        "id": "1bb97e5b-889d-4ceb-9293-c031c461ba9a",
+        "created_at": "2023-08-22T21:27:58.247Z",
+        "updated_at": "2023-08-22T07:44:40.690Z"
+      },
+      {
+        "id": "0f71a5d2-b319-4d3d-a3d7-cbb9a001e8df",
+        "created_at": "2023-08-22T12:10:11.293Z",
+        "updated_at": "2023-08-22T14:50:19.364Z"
+      },
+      {
+        "id": "4ff91307-5794-425a-bb54-032e8695274b",
+        "created_at": "2023-08-22T14:23:18.070Z",
+        "updated_at": "2023-08-22T23:08:07.506Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "096a1335-050b-44a9-93f3-2de8049785d5",
+        "name": "CodeMaster",
+        "created_at": "2023-08-23T03:02:29.370Z",
+        "updated_at": "2023-08-22T20:55:24.493Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c9c839c4-9c72-434a-8577-77cfac8a69d7",
+        "name": "DataAnalyzer",
+        "created_at": "2023-08-22T10:49:38.653Z",
+        "updated_at": "2023-08-22T04:38:09.757Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f4d38054-d4e9-4612-b116-19823e8ee4f3",
+        "name": "DesignWizard",
+        "created_at": "2023-08-22T13:04:27.750Z",
+        "updated_at": "2023-08-22T14:19:32.551Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1644c810-05fc-4e95-b909-651ca7b68400",
+        "name": "TaskTracker",
+        "created_at": "2023-08-22T12:38:23.449Z",
+        "updated_at": "2023-08-22T05:43:48.386Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5386e66d-7b62-4e1f-b898-263c054c23e6",
+        "name": "PerformanceOptimizer",
+        "created_at": "2023-08-22T23:58:36.146Z",
+        "updated_at": "2023-08-22T06:57:01.769Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "76dbd524-3692-41ec-a3fa-0bbbb0a4bc9b",
+        "name": "The Coffee Spot",
+        "created_at": "2023-08-22T22:33:19.518Z",
+        "updated_at": "2023-08-22T17:30:35.012Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "12bab5ac-745e-4069-9cec-a5c94f339eb2",
+        "name": "The Fashion Boutique",
+        "created_at": "2023-08-22T23:03:32.220Z",
+        "updated_at": "2023-08-23T01:24:33.523Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6074d3c8-f9c3-4e42-9c1b-e68957ef85a0",
+        "name": "The Book Nook",
+        "created_at": "2023-08-22T08:23:17.764Z",
+        "updated_at": "2023-08-22T04:11:58.741Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a7d59ad1-1900-4ed9-b310-8fd1c6780987",
+        "name": "The Fitness Studio",
+        "created_at": "2023-08-22T08:19:07.149Z",
+        "updated_at": "2023-08-22T17:51:46.714Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9e1b39dd-2116-416f-a711-9bfe9753d1fd",
+        "name": "The Art Gallery",
+        "created_at": "2023-08-22T08:27:19.272Z",
+        "updated_at": "2023-08-22T15:04:36.936Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "7a0b4d6c-1b5a-461e-b32a-d30abe1043be",
+        "rental_date": "2023-08-22T19:22:07.157Z",
+        "return_date": "2023-08-22T21:05:52.410Z",
+        "created_at": "2023-08-22T23:28:29.342Z",
+        "updated_at": "2023-08-22T07:49:42.039Z",
+        "outlet_id": "a7d59ad1-1900-4ed9-b310-8fd1c6780987",
+        "tool_id": "096a1335-050b-44a9-93f3-2de8049785d5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b385e73a-6c31-41e9-8c0c-34b3695965a1",
+        "rental_date": "2023-08-22T17:56:28.681Z",
+        "return_date": "2023-08-22T19:24:16.069Z",
+        "created_at": "2023-08-22T18:14:21.084Z",
+        "updated_at": "2023-08-22T23:16:47.279Z",
+        "outlet_id": "a7d59ad1-1900-4ed9-b310-8fd1c6780987",
+        "tool_id": "5386e66d-7b62-4e1f-b898-263c054c23e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdcea9eb-7d24-4d8b-a2fe-6496c8590a94",
+        "rental_date": "2023-08-22T18:14:52.768Z",
+        "return_date": "2023-08-22T14:19:49.027Z",
+        "created_at": "2023-08-22T10:55:57.274Z",
+        "updated_at": "2023-08-22T07:46:47.142Z",
+        "outlet_id": "9e1b39dd-2116-416f-a711-9bfe9753d1fd",
+        "tool_id": "5386e66d-7b62-4e1f-b898-263c054c23e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73a9dbea-4bfd-41f9-b676-7c1d68430a3c",
+        "rental_date": "2023-08-22T13:09:31.677Z",
+        "return_date": "2023-08-23T00:50:44.944Z",
+        "created_at": "2023-08-22T11:44:00.148Z",
+        "updated_at": "2023-08-22T16:46:02.410Z",
+        "outlet_id": "a7d59ad1-1900-4ed9-b310-8fd1c6780987",
+        "tool_id": "c9c839c4-9c72-434a-8577-77cfac8a69d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33c8a1c6-6ca0-4cdc-a810-da596fdbd4a3",
+        "rental_date": "2023-08-23T00:16:20.504Z",
+        "return_date": "2023-08-22T13:59:43.228Z",
+        "created_at": "2023-08-22T11:13:00.352Z",
+        "updated_at": "2023-08-22T17:43:35.830Z",
+        "outlet_id": "a7d59ad1-1900-4ed9-b310-8fd1c6780987",
+        "tool_id": "c9c839c4-9c72-434a-8577-77cfac8a69d7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3c8b6dea-bae4-4601-a499-db196dc93f3c",
+        "email": "Augusta79@hotmail.com",
+        "firstName": "Helmer",
+        "lastName": "Murphy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9299696",
+        "tenantId": null
+      },
+      {
+        "reference": "f4c7dbf3-731f-46ec-a27b-fbdad0869227",
+        "email": "Roma.Schaden1@hotmail.com",
+        "firstName": "Oceane",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26524880",
+        "tenantId": null
+      },
+      {
+        "reference": "d0e0c8dd-de13-45ef-b7d9-b4d4fef7eb21",
+        "email": "Abelardo_Ryan@hotmail.com",
+        "firstName": "Theron",
+        "lastName": "Sauer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/462.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b123f724-8afb-4126-a2af-5193ef92cfc7",
+        "email": "Evalyn_Moen-Mann@hotmail.com",
+        "firstName": "Enrico",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1019.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d903a31c-3450-4c24-b20d-c23cd5a8363f",
+        "email": "Mohammad_Towne@hotmail.com",
+        "firstName": "Finn",
+        "lastName": "Homenick",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1124.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "id": [
+      {
+        "id": "6830c1eb-a115-46d0-aec6-0e54eb92495c",
+        "created_at": "2023-08-22T10:31:34.916Z",
+        "updated_at": "2023-08-23T02:00:23.262Z"
+      },
+      {
+        "id": "12fdcf2e-6efa-4764-861a-16da62f92074",
+        "created_at": "2023-08-22T06:34:47.915Z",
+        "updated_at": "2023-08-22T12:26:02.466Z"
+      },
+      {
+        "id": "8b2072ff-cf42-4f24-a865-812229bfc8d7",
+        "created_at": "2023-08-22T08:49:59.796Z",
+        "updated_at": "2023-08-22T19:34:01.688Z"
+      },
+      {
+        "id": "df87fe31-d278-427f-b18a-762e1263f774",
+        "created_at": "2023-08-22T14:40:56.508Z",
+        "updated_at": "2023-08-22T19:41:54.875Z"
+      },
+      {
+        "id": "aee40980-dced-4132-ba93-d240cd877156",
+        "created_at": "2023-08-22T19:01:02.956Z",
+        "updated_at": "2023-08-22T08:44:30.366Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "d5510fe7-f948-47bb-a733-80014d142565",
+        "name": "Visual Studio Code",
+        "created_at": "2023-08-23T00:47:28.750Z",
+        "updated_at": "2023-08-22T04:15:57.951Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c72d471f-7e12-4f9d-91a8-48106ccfd018",
+        "name": "Adobe Photoshop",
+        "created_at": "2023-08-22T21:09:50.607Z",
+        "updated_at": "2023-08-22T18:01:12.900Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2bb46e80-9bf8-4e7f-8039-92f1ccafd5ed",
+        "name": "Slack",
+        "created_at": "2023-08-22T19:10:46.801Z",
+        "updated_at": "2023-08-23T03:50:27.352Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c89b1aea-043d-45d6-b904-c22b2d56c65c",
+        "name": "Trello",
+        "created_at": "2023-08-22T04:51:22.301Z",
+        "updated_at": "2023-08-23T03:28:21.186Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8485e381-0e38-48f8-a9ad-7e0c7f92c8fc",
+        "name": "Google Analytics",
+        "created_at": "2023-08-22T08:42:34.403Z",
+        "updated_at": "2023-08-22T05:46:05.107Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "37747e4d-0b9d-4d05-88c5-336e107d0b72",
+        "name": "Main Outlet",
+        "created_at": "2023-08-22T13:03:12.108Z",
+        "updated_at": "2023-08-22T21:28:43.506Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "771396cf-3da8-47b5-af51-2df827a1717d",
+        "name": "Branch Outlet",
+        "created_at": "2023-08-22T04:36:50.185Z",
+        "updated_at": "2023-08-22T18:23:35.271Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "def2392f-ffe0-4188-aaa9-687bc4b2d74d",
+        "name": "Retail Store",
+        "created_at": "2023-08-22T20:55:59.285Z",
+        "updated_at": "2023-08-22T23:53:17.934Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c4440467-f3ec-40cf-b211-a6e820e6761d",
+        "name": "Online Store",
+        "created_at": "2023-08-22T12:15:34.018Z",
+        "updated_at": "2023-08-22T12:54:26.507Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "510d7beb-74f3-450a-9a9e-cfe794f83792",
+        "name": "Pop-up Shop",
+        "created_at": "2023-08-23T02:03:41.433Z",
+        "updated_at": "2023-08-22T06:17:03.348Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "3e440523-0fd7-4dde-b841-76fd28f5889d",
+        "rental_date": "2023-08-22T07:21:55.197Z",
+        "return_date": "2023-08-22T21:52:10.052Z",
+        "created_at": "2023-08-22T20:38:31.408Z",
+        "updated_at": "2023-08-22T11:34:01.057Z",
+        "outlet_id": "510d7beb-74f3-450a-9a9e-cfe794f83792",
+        "tool_id": "8485e381-0e38-48f8-a9ad-7e0c7f92c8fc",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "32dc7c84-b184-47de-8a42-19523892a89e",
+        "rental_date": "2023-08-22T09:56:41.656Z",
+        "return_date": "2023-08-22T12:34:52.674Z",
+        "created_at": "2023-08-22T22:06:46.164Z",
+        "updated_at": "2023-08-22T17:58:08.714Z",
+        "outlet_id": "c4440467-f3ec-40cf-b211-a6e820e6761d",
+        "tool_id": "d5510fe7-f948-47bb-a733-80014d142565",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0b2b5ee-5769-4d5b-8222-cd038e8b6799",
+        "rental_date": "2023-08-22T14:05:38.349Z",
+        "return_date": "2023-08-22T19:06:47.932Z",
+        "created_at": "2023-08-22T22:25:18.725Z",
+        "updated_at": "2023-08-22T19:26:58.500Z",
+        "outlet_id": "510d7beb-74f3-450a-9a9e-cfe794f83792",
+        "tool_id": "d5510fe7-f948-47bb-a733-80014d142565",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0dc066c-b577-4e7a-9ed1-2b49282bbd65",
+        "rental_date": "2023-08-22T23:03:52.873Z",
+        "return_date": "2023-08-22T08:41:56.965Z",
+        "created_at": "2023-08-22T06:01:02.923Z",
+        "updated_at": "2023-08-22T17:19:00.167Z",
+        "outlet_id": "c4440467-f3ec-40cf-b211-a6e820e6761d",
+        "tool_id": "c72d471f-7e12-4f9d-91a8-48106ccfd018",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe93da25-4f7c-412e-81b7-5cbf52c4193c",
+        "rental_date": "2023-08-23T02:17:49.069Z",
+        "return_date": "2023-08-23T00:59:09.993Z",
+        "created_at": "2023-08-22T12:28:54.754Z",
+        "updated_at": "2023-08-22T10:48:57.931Z",
+        "outlet_id": "510d7beb-74f3-450a-9a9e-cfe794f83792",
+        "tool_id": "c89b1aea-043d-45d6-b904-c22b2d56c65c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "facfab21-6171-4e7f-89ad-5bf268fee63b",
+        "email": "Rashad.OReilly@hotmail.com",
+        "firstName": "Carli",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82153091",
+        "tenantId": null
+      },
+      {
+        "reference": "2b7dfd60-b044-4b91-a9e8-4ce856abce26",
+        "email": "Abel56@hotmail.com",
+        "firstName": "Noel",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/815.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0cc0c6e2-c455-476b-a01c-b666e3e653cd",
+        "email": "Junius_Graham@gmail.com",
+        "firstName": "Doug",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/362.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "92a97d66-287d-4d5d-aa3d-798364f5bbcf",
+        "email": "Betty_Walsh21@hotmail.com",
+        "firstName": "Kellen",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65778564",
+        "tenantId": null
+      },
+      {
+        "reference": "ed2ca864-38df-4e60-af43-b1494d7cb4cf",
+        "email": "Dolly_Aufderhar@gmail.com",
+        "firstName": "Janessa",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/6288745",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "id": [
+      {
+        "id": "3a59b7f0-3b35-47c0-a595-58268f4e2541",
+        "created_at": "2023-08-22T14:17:48.135Z",
+        "updated_at": "2023-08-22T13:55:22.635Z"
+      },
+      {
+        "id": "9b3f0068-b8ee-4e84-b430-ab4f5a9bfe27",
+        "created_at": "2023-08-22T22:35:28.910Z",
+        "updated_at": "2023-08-23T04:00:48.304Z"
+      },
+      {
+        "id": "3e7f636f-0631-43f7-8ec6-c649f2ce72cd",
+        "created_at": "2023-08-22T13:35:08.594Z",
+        "updated_at": "2023-08-22T05:55:33.052Z"
+      },
+      {
+        "id": "c0d8db60-09cb-4107-9743-f3e40bcd03b3",
+        "created_at": "2023-08-22T14:05:50.262Z",
+        "updated_at": "2023-08-22T16:03:02.923Z"
+      },
+      {
+        "id": "c1180db9-2f54-4a6d-924d-d4600046b620",
+        "created_at": "2023-08-22T10:59:03.461Z",
+        "updated_at": "2023-08-22T23:41:53.475Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "7451eaa6-5de0-42eb-9104-36ed3ad80c43",
+        "name": "Visual Studio Code",
+        "created_at": "2023-08-23T03:47:16.449Z",
+        "updated_at": "2023-08-22T04:03:33.553Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8983890c-dd97-45d5-8e38-0938708ae97d",
+        "name": "Adobe Photoshop",
+        "created_at": "2023-08-22T22:31:23.817Z",
+        "updated_at": "2023-08-22T18:40:46.337Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f44265fd-3222-4dd2-96f9-36d7932418f9",
+        "name": "Slack",
+        "created_at": "2023-08-22T07:05:34.406Z",
+        "updated_at": "2023-08-22T14:41:07.883Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f4035a6a-1901-46dd-a1c3-1f835cf57a85",
+        "name": "Trello",
+        "created_at": "2023-08-22T05:45:34.995Z",
+        "updated_at": "2023-08-22T09:35:53.261Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b8e0dec4-2bf7-46fc-8595-756d6b7a2f94",
+        "name": "Google Analytics",
+        "created_at": "2023-08-22T22:02:47.080Z",
+        "updated_at": "2023-08-22T04:40:26.780Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "10eb42c8-ab53-40bc-92d3-7dee227b6494",
+        "name": "Outlet 1",
+        "created_at": "2023-08-22T04:06:03.970Z",
+        "updated_at": "2023-08-23T00:14:04.359Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "668af286-58df-40ca-b84c-6910d771f375",
+        "name": "Outlet 2",
+        "created_at": "2023-08-22T22:16:45.944Z",
+        "updated_at": "2023-08-22T04:28:12.163Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a051d4e3-0d27-4002-aea7-c272db55e0af",
+        "name": "Outlet 3",
+        "created_at": "2023-08-22T07:55:07.457Z",
+        "updated_at": "2023-08-23T02:23:48.872Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ee99e8ef-656f-4f4d-8ec6-c146b1212bfd",
+        "name": "Outlet 4",
+        "created_at": "2023-08-22T10:37:58.013Z",
+        "updated_at": "2023-08-22T19:19:49.300Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6953dbda-7132-420d-9c23-1610d4f37b5c",
+        "name": "Outlet 5",
+        "created_at": "2023-08-23T03:44:48.447Z",
+        "updated_at": "2023-08-22T04:03:15.190Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "b4875397-cab9-4a12-8d12-364549cb45ca",
+        "rental_date": "2023-08-22T09:56:10.885Z",
+        "return_date": "2023-08-22T23:13:25.824Z",
+        "created_at": "2023-08-22T22:20:21.944Z",
+        "updated_at": "2023-08-23T00:52:45.396Z",
+        "outlet_id": "668af286-58df-40ca-b84c-6910d771f375",
+        "tool_id": "8983890c-dd97-45d5-8e38-0938708ae97d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d047aa9b-2115-4491-adcd-545278e670e9",
+        "rental_date": "2023-08-22T20:56:58.265Z",
+        "return_date": "2023-08-22T08:16:01.248Z",
+        "created_at": "2023-08-22T18:39:55.437Z",
+        "updated_at": "2023-08-23T01:36:00.868Z",
+        "outlet_id": "6953dbda-7132-420d-9c23-1610d4f37b5c",
+        "tool_id": "b8e0dec4-2bf7-46fc-8595-756d6b7a2f94",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dff1f335-ab73-43bb-a983-65af557ba73c",
+        "rental_date": "2023-08-22T17:07:30.981Z",
+        "return_date": "2023-08-22T09:16:20.887Z",
+        "created_at": "2023-08-22T19:29:07.766Z",
+        "updated_at": "2023-08-22T21:41:52.386Z",
+        "outlet_id": "668af286-58df-40ca-b84c-6910d771f375",
+        "tool_id": "7451eaa6-5de0-42eb-9104-36ed3ad80c43",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c548062-8e2b-4e0b-b4dd-f7a0dfe35ad7",
+        "rental_date": "2023-08-23T02:15:49.630Z",
+        "return_date": "2023-08-22T08:09:13.517Z",
+        "created_at": "2023-08-23T01:32:31.530Z",
+        "updated_at": "2023-08-22T08:39:38.205Z",
+        "outlet_id": "ee99e8ef-656f-4f4d-8ec6-c146b1212bfd",
+        "tool_id": "f44265fd-3222-4dd2-96f9-36d7932418f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c949a3f-2d85-4d75-ad33-f315a11ab4b1",
+        "rental_date": "2023-08-22T21:01:54.017Z",
+        "return_date": "2023-08-22T21:09:22.694Z",
+        "created_at": "2023-08-22T13:42:37.751Z",
+        "updated_at": "2023-08-22T11:35:57.343Z",
+        "outlet_id": "10eb42c8-ab53-40bc-92d3-7dee227b6494",
+        "tool_id": "8983890c-dd97-45d5-8e38-0938708ae97d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b111d006-02ac-4202-929a-c6d1ea37a7a3",
+        "email": "Keaton.OConner-King@hotmail.com",
+        "firstName": "Maci",
+        "lastName": "Parker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/876.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "13866dda-de6f-45a8-b90f-1ae7197d98f6",
+        "email": "Eric_Muller83@yahoo.com",
+        "firstName": "Jettie",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1076.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7ce17419-1411-41b3-b10b-f50d92364ad8",
+        "email": "Gunnar_Berge5@yahoo.com",
+        "firstName": "Alison",
+        "lastName": "Mante",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35318691",
+        "tenantId": null
+      },
+      {
+        "reference": "b44f0a59-5e64-4961-92ed-2bdd528aac08",
+        "email": "Rod.Wintheiser@yahoo.com",
+        "firstName": "Oscar",
+        "lastName": "Sporer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/713.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e0a5a6e3-9f0e-4892-a043-5650e7333707",
+        "email": "Mateo.Gutkowski@gmail.com",
+        "firstName": "Antonette",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/30.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "id": [
+      {
+        "id": "29945d57-9f11-4477-b34a-0644b43f07f8",
+        "created_at": "2023-08-22T17:36:42.993Z",
+        "updated_at": "2023-08-22T09:52:48.200Z"
+      },
+      {
+        "id": "982ecdcf-a15c-450f-b8e5-adf2e7d4cbe8",
+        "created_at": "2023-08-23T02:20:41.527Z",
+        "updated_at": "2023-08-22T13:34:11.321Z"
+      },
+      {
+        "id": "dee1d6fd-06bd-4d34-859b-fa73a65ebe09",
+        "created_at": "2023-08-22T16:36:56.858Z",
+        "updated_at": "2023-08-23T01:41:42.934Z"
+      },
+      {
+        "id": "a655a338-0fb3-4dad-bb5f-d3c3ec460d96",
+        "created_at": "2023-08-22T12:26:28.908Z",
+        "updated_at": "2023-08-22T18:08:34.700Z"
+      },
+      {
+        "id": "86af5f2a-a88a-46b4-82b6-bea4e44d2483",
+        "created_at": "2023-08-22T04:44:36.163Z",
+        "updated_at": "2023-08-22T18:22:27.727Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "418bd9e8-913c-4102-b21e-6a6e26770a4c",
+        "name": "Tool A",
+        "created_at": "2023-08-22T09:45:10.314Z",
+        "updated_at": "2023-08-22T23:21:05.831Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2c0928f6-2d1a-4397-8df9-bf4a920916b1",
+        "name": "Tool B",
+        "created_at": "2023-08-22T22:48:54.730Z",
+        "updated_at": "2023-08-23T00:44:38.074Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "baf810d8-05e5-4569-8309-d70a3937975f",
+        "name": "Tool C",
+        "created_at": "2023-08-23T01:10:04.590Z",
+        "updated_at": "2023-08-22T18:47:26.753Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6f469435-b311-442f-8101-7d8b289d9176",
+        "name": "Tool D",
+        "created_at": "2023-08-22T08:12:05.007Z",
+        "updated_at": "2023-08-23T01:10:14.397Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7d17fdaa-7c64-4f45-a120-bccac5d351a6",
+        "name": "Tool E",
+        "created_at": "2023-08-22T14:18:25.373Z",
+        "updated_at": "2023-08-23T01:24:41.893Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "fb8aa92a-b023-4f66-bbbb-626d64622203",
+        "name": "Outlet 1",
+        "created_at": "2023-08-22T05:06:23.669Z",
+        "updated_at": "2023-08-22T09:31:18.594Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "97958a0c-7251-4f0a-9f4b-4dddfd7d19f1",
+        "name": "Outlet 2",
+        "created_at": "2023-08-22T16:41:14.267Z",
+        "updated_at": "2023-08-22T09:11:09.922Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "99efc35f-f2db-4bb3-beb7-21d444980f08",
+        "name": "Outlet 3",
+        "created_at": "2023-08-22T17:32:26.298Z",
+        "updated_at": "2023-08-22T23:41:44.159Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "20e30a9d-4681-447f-b99d-ea955dc1abcb",
+        "name": "Outlet 4",
+        "created_at": "2023-08-22T17:28:19.736Z",
+        "updated_at": "2023-08-22T15:45:28.822Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "938b6498-9126-44dd-9c43-edc512a30f47",
+        "name": "Outlet 5",
+        "created_at": "2023-08-23T01:19:19.613Z",
+        "updated_at": "2023-08-22T23:39:29.948Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "26083665-0689-44c0-9087-9255578d50fb",
+        "rental_date": "2023-08-22T22:36:59.871Z",
+        "return_date": "2023-08-22T20:35:58.712Z",
+        "created_at": "2023-08-22T09:56:51.024Z",
+        "updated_at": "2023-08-22T20:30:55.726Z",
+        "outlet_id": "fb8aa92a-b023-4f66-bbbb-626d64622203",
+        "tool_id": "baf810d8-05e5-4569-8309-d70a3937975f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c502bef2-2f12-4308-a917-07048dc41fd5",
+        "rental_date": "2023-08-22T04:46:12.470Z",
+        "return_date": "2023-08-22T08:03:56.096Z",
+        "created_at": "2023-08-22T21:07:13.993Z",
+        "updated_at": "2023-08-23T03:15:27.490Z",
+        "outlet_id": "938b6498-9126-44dd-9c43-edc512a30f47",
+        "tool_id": "2c0928f6-2d1a-4397-8df9-bf4a920916b1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bc16ea5-c33f-49c0-a92e-e2cc5b2f34ae",
+        "rental_date": "2023-08-22T13:46:53.603Z",
+        "return_date": "2023-08-22T23:18:35.278Z",
+        "created_at": "2023-08-22T07:21:14.505Z",
+        "updated_at": "2023-08-22T17:46:27.675Z",
+        "outlet_id": "99efc35f-f2db-4bb3-beb7-21d444980f08",
+        "tool_id": "baf810d8-05e5-4569-8309-d70a3937975f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e7dd731-38ed-41c5-8642-dea2cf75fd8d",
+        "rental_date": "2023-08-22T09:11:21.632Z",
+        "return_date": "2023-08-22T20:36:11.571Z",
+        "created_at": "2023-08-22T09:48:18.978Z",
+        "updated_at": "2023-08-22T04:32:28.380Z",
+        "outlet_id": "938b6498-9126-44dd-9c43-edc512a30f47",
+        "tool_id": "2c0928f6-2d1a-4397-8df9-bf4a920916b1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86128e1e-a1a1-482d-94c1-9a37cd974bfa",
+        "rental_date": "2023-08-23T01:06:13.389Z",
+        "return_date": "2023-08-22T18:33:27.822Z",
+        "created_at": "2023-08-22T10:22:31.225Z",
+        "updated_at": "2023-08-22T17:18:22.690Z",
+        "outlet_id": "99efc35f-f2db-4bb3-beb7-21d444980f08",
+        "tool_id": "6f469435-b311-442f-8101-7d8b289d9176",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1e3a3b4d-589c-4461-9be9-d21f6498515b",
+        "email": "Darlene91@yahoo.com",
+        "firstName": "Milton",
+        "lastName": "Bergstrom",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/439.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4c2d86b3-3e59-4dfc-9eb9-b15b746eca26",
+        "email": "Aurelia21@hotmail.com",
+        "firstName": "Jaiden",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/793.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a221cb41-7366-4e70-9dd1-d907790445f9",
+        "email": "Devon_Heaney25@hotmail.com",
+        "firstName": "Brett",
+        "lastName": "Kassulke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23436145",
+        "tenantId": null
+      },
+      {
+        "reference": "c2aac69e-9b9c-404b-b84f-1c72f98b137c",
+        "email": "Vergie.Willms@hotmail.com",
+        "firstName": "Rashad",
+        "lastName": "Bogan-Rice",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5633815",
+        "tenantId": null
+      },
+      {
+        "reference": "ab59bfc7-5f3d-404e-87d2-f38e3d528de9",
+        "email": "Parker.Schmidt@gmail.com",
+        "firstName": "Norene",
+        "lastName": "Runte",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58977795",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "id": [
+      {
+        "id": "0045d546-4452-42c5-ae9b-378965225f56",
+        "created_at": "2023-08-22T10:27:06.482Z",
+        "updated_at": "2023-08-22T12:01:53.153Z"
+      },
+      {
+        "id": "cd1d905f-5088-4c58-b3e7-8c30b3d66e22",
+        "created_at": "2023-08-22T19:45:38.790Z",
+        "updated_at": "2023-08-22T23:54:09.675Z"
+      },
+      {
+        "id": "1c879bf0-df25-4921-85f5-141a723900d5",
+        "created_at": "2023-08-22T21:14:31.175Z",
+        "updated_at": "2023-08-22T09:59:40.178Z"
+      },
+      {
+        "id": "d720b5ee-518d-47e2-878a-99c111b6f979",
+        "created_at": "2023-08-22T10:45:13.722Z",
+        "updated_at": "2023-08-22T18:39:50.172Z"
+      },
+      {
+        "id": "d9065834-0644-4563-9701-932354c84321",
+        "created_at": "2023-08-22T11:06:56.489Z",
+        "updated_at": "2023-08-22T14:46:45.216Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "bcf0e582-fd9c-4035-abb3-2384d13434b4",
+        "name": "CodeMaster",
+        "created_at": "2023-08-22T21:53:51.901Z",
+        "updated_at": "2023-08-22T08:31:13.943Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0a32c0d6-5a3e-41d2-b493-649463307838",
+        "name": "DataAnalyzer",
+        "created_at": "2023-08-22T21:05:38.949Z",
+        "updated_at": "2023-08-22T11:16:35.756Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "27f8cb26-56bf-4a6d-bb45-69106b1d2955",
+        "name": "DesignPro",
+        "created_at": "2023-08-22T22:27:39.421Z",
+        "updated_at": "2023-08-22T20:24:43.203Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8004d78a-3887-4637-bc3c-a17d5d4beb0d",
+        "name": "TechGuru",
+        "created_at": "2023-08-22T22:02:00.323Z",
+        "updated_at": "2023-08-22T05:23:15.973Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2c832217-d7ff-42b6-8813-71cd46469ec8",
+        "name": "InnovationTool",
+        "created_at": "2023-08-23T04:00:49.568Z",
+        "updated_at": "2023-08-22T16:39:41.637Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "d93b7a15-cb50-40aa-a9fa-1b206d5f0976",
+        "name": "TechOutlet",
+        "created_at": "2023-08-22T21:16:55.975Z",
+        "updated_at": "2023-08-22T19:41:46.060Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3a744841-5586-4d5d-8d78-b698f1c6f6bf",
+        "name": "GadgetHub",
+        "created_at": "2023-08-22T20:29:35.751Z",
+        "updated_at": "2023-08-22T20:10:56.357Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b142ad9a-414e-4690-87de-f856a5274341",
+        "name": "ElectroMart",
+        "created_at": "2023-08-22T18:15:34.798Z",
+        "updated_at": "2023-08-22T18:28:46.661Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "2e2c6cc8-5b51-4f38-b63d-ed6c0f7b9f70",
+        "name": "DigitalWorld",
+        "created_at": "2023-08-22T04:54:40.808Z",
+        "updated_at": "2023-08-22T10:19:20.695Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "43786070-b888-4bba-a8d1-77fde5c89184",
+        "name": "TechZone",
+        "created_at": "2023-08-22T14:24:17.547Z",
+        "updated_at": "2023-08-22T10:27:24.464Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "8ad2d464-4ade-4c94-9db6-3239456641ed",
+        "rental_date": "2023-08-22T09:54:35.416Z",
+        "return_date": "2023-08-22T08:21:30.783Z",
+        "created_at": "2023-08-22T08:59:21.912Z",
+        "updated_at": "2023-08-22T06:37:43.611Z",
+        "outlet_id": "43786070-b888-4bba-a8d1-77fde5c89184",
+        "tool_id": "0a32c0d6-5a3e-41d2-b493-649463307838",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "855c7222-39e3-4598-9c55-13023f93074a",
+        "rental_date": "2023-08-22T23:51:36.701Z",
+        "return_date": "2023-08-22T19:06:00.842Z",
+        "created_at": "2023-08-22T09:46:21.228Z",
+        "updated_at": "2023-08-23T00:54:45.013Z",
+        "outlet_id": "b142ad9a-414e-4690-87de-f856a5274341",
+        "tool_id": "8004d78a-3887-4637-bc3c-a17d5d4beb0d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e39beac2-e9d7-44c0-b03e-97d74294795b",
+        "rental_date": "2023-08-22T19:56:42.758Z",
+        "return_date": "2023-08-22T14:15:01.281Z",
+        "created_at": "2023-08-22T17:22:18.854Z",
+        "updated_at": "2023-08-23T03:46:09.761Z",
+        "outlet_id": "3a744841-5586-4d5d-8d78-b698f1c6f6bf",
+        "tool_id": "27f8cb26-56bf-4a6d-bb45-69106b1d2955",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7d124217-6dca-42b0-85de-5de54a9ea478",
+        "rental_date": "2023-08-22T09:06:35.559Z",
+        "return_date": "2023-08-22T06:57:53.210Z",
+        "created_at": "2023-08-22T21:06:11.854Z",
+        "updated_at": "2023-08-22T04:41:51.691Z",
+        "outlet_id": "3a744841-5586-4d5d-8d78-b698f1c6f6bf",
+        "tool_id": "8004d78a-3887-4637-bc3c-a17d5d4beb0d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97925d84-bc51-40f7-afbf-6338c5e3c65a",
+        "rental_date": "2023-08-22T15:12:28.329Z",
+        "return_date": "2023-08-22T07:25:50.740Z",
+        "created_at": "2023-08-22T16:24:43.994Z",
+        "updated_at": "2023-08-22T11:17:48.681Z",
+        "outlet_id": "2e2c6cc8-5b51-4f38-b63d-ed6c0f7b9f70",
+        "tool_id": "2c832217-d7ff-42b6-8813-71cd46469ec8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "edf4a661-8b05-442e-9675-8eaa9e95a615",
+        "email": "Vladimir.Ondricka@yahoo.com",
+        "firstName": "Louvenia",
+        "lastName": "Hermann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1110.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "46583b67-53a5-4b9d-a9cc-682ea63b0944",
+        "email": "Laverna_Kessler@hotmail.com",
+        "firstName": "Deangelo",
+        "lastName": "Cummerata",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/355.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "34d25ffc-b274-4faf-b38b-da57a0715899",
+        "email": "Haven.Ferry29@hotmail.com",
+        "firstName": "Arielle",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12541541",
+        "tenantId": null
+      },
+      {
+        "reference": "3e7ba659-3d7e-4216-8105-031f4c40cd5d",
+        "email": "Jared.OConnell62@yahoo.com",
+        "firstName": "Ashlynn",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/948.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9d9a7f4e-5722-44c4-8f6e-4db2ecad6b9c",
+        "email": "Christelle.Ward75@yahoo.com",
+        "firstName": "Jaylon",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41105970",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "id": [
+      {
+        "id": "8a5fa730-1a1e-4f06-99ce-055778defdcf",
+        "created_at": "2023-08-22T12:09:43.359Z",
+        "updated_at": "2023-08-23T01:02:28.834Z"
+      },
+      {
+        "id": "d48883ce-4edb-4997-bafc-77efd68e86c9",
+        "created_at": "2023-08-22T11:07:02.314Z",
+        "updated_at": "2023-08-22T08:45:25.256Z"
+      },
+      {
+        "id": "08bb441a-ce9d-406a-82bb-4977b208d065",
+        "created_at": "2023-08-22T07:22:00.769Z",
+        "updated_at": "2023-08-22T05:57:24.487Z"
+      },
+      {
+        "id": "7fb918c4-5916-4a53-92dc-00bdc43d006d",
+        "created_at": "2023-08-22T06:32:51.186Z",
+        "updated_at": "2023-08-22T11:49:40.110Z"
+      },
+      {
+        "id": "e6626490-cc0c-4faf-be0d-147cdfa8a2e4",
+        "created_at": "2023-08-22T10:21:02.431Z",
+        "updated_at": "2023-08-23T02:29:48.814Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "d7165b16-10ef-41ff-a89c-cec30f3f7fc5",
+        "name": "PowerTool",
+        "created_at": "2023-08-22T12:07:49.353Z",
+        "updated_at": "2023-08-22T04:47:22.119Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "61cc5175-fb81-4f88-a858-183697aa55e2",
+        "name": "SmartTool",
+        "created_at": "2023-08-22T06:38:16.036Z",
+        "updated_at": "2023-08-22T07:17:18.377Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a7e2fc96-0583-4f51-bc5a-da972496cbfa",
+        "name": "TechTool",
+        "created_at": "2023-08-22T14:25:58.283Z",
+        "updated_at": "2023-08-22T05:51:18.633Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dac048c3-9e9a-49ce-935a-6374d03c75b5",
+        "name": "InnovativeTool",
+        "created_at": "2023-08-22T17:17:59.181Z",
+        "updated_at": "2023-08-22T09:45:18.679Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e7685c6e-491f-48c5-9e27-307acc28d1f1",
+        "name": "ProTool",
+        "created_at": "2023-08-22T13:28:15.492Z",
+        "updated_at": "2023-08-22T06:43:21.351Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "6f449bcb-227b-4395-a020-15318b037a10",
+        "name": "Outlet1",
+        "created_at": "2023-08-22T22:45:59.411Z",
+        "updated_at": "2023-08-22T11:00:15.542Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "311a46c8-664d-4356-bcbb-c2e68c318d7e",
+        "name": "Outlet2",
+        "created_at": "2023-08-22T12:57:55.407Z",
+        "updated_at": "2023-08-22T10:53:50.621Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a7d620ef-a930-49f1-877b-00ee0a2a7573",
+        "name": "Outlet3",
+        "created_at": "2023-08-22T19:39:32.748Z",
+        "updated_at": "2023-08-22T11:03:15.301Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1d630b7c-fe7e-4b54-ba0a-f6c61302ff29",
+        "name": "Outlet4",
+        "created_at": "2023-08-22T21:15:38.214Z",
+        "updated_at": "2023-08-22T20:09:48.100Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "51da9b2a-f6a1-4716-9d29-1bcaf2332c2c",
+        "name": "Outlet5",
+        "created_at": "2023-08-22T10:53:26.117Z",
+        "updated_at": "2023-08-23T02:53:25.126Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "b92c3a2e-7076-4ecc-b3c7-126194701dce",
+        "rental_date": "2023-08-22T20:27:12.345Z",
+        "return_date": "2023-08-22T13:56:54.135Z",
+        "created_at": "2023-08-22T09:37:17.454Z",
+        "updated_at": "2023-08-22T15:18:36.059Z",
+        "outlet_id": "311a46c8-664d-4356-bcbb-c2e68c318d7e",
+        "tool_id": "61cc5175-fb81-4f88-a858-183697aa55e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "221e1351-9704-40b5-9dbd-9a8450368281",
+        "rental_date": "2023-08-22T17:10:09.307Z",
+        "return_date": "2023-08-22T16:42:14.903Z",
+        "created_at": "2023-08-23T01:29:22.064Z",
+        "updated_at": "2023-08-22T04:19:16.181Z",
+        "outlet_id": "6f449bcb-227b-4395-a020-15318b037a10",
+        "tool_id": "d7165b16-10ef-41ff-a89c-cec30f3f7fc5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad3f4a2e-819d-44e2-9e14-380514b40eeb",
+        "rental_date": "2023-08-22T10:24:04.867Z",
+        "return_date": "2023-08-22T08:50:51.285Z",
+        "created_at": "2023-08-22T17:20:06.422Z",
+        "updated_at": "2023-08-22T22:33:45.371Z",
+        "outlet_id": "a7d620ef-a930-49f1-877b-00ee0a2a7573",
+        "tool_id": "dac048c3-9e9a-49ce-935a-6374d03c75b5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba3c6243-2b4c-4bd8-89da-1d8c99555c08",
+        "rental_date": "2023-08-22T06:59:47.726Z",
+        "return_date": "2023-08-22T10:14:19.581Z",
+        "created_at": "2023-08-22T13:29:25.262Z",
+        "updated_at": "2023-08-22T06:52:36.316Z",
+        "outlet_id": "a7d620ef-a930-49f1-877b-00ee0a2a7573",
+        "tool_id": "61cc5175-fb81-4f88-a858-183697aa55e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e43edc3b-6d4f-4e6d-aaaf-1b7085d7e6c5",
+        "rental_date": "2023-08-22T19:31:36.463Z",
+        "return_date": "2023-08-22T19:51:34.875Z",
+        "created_at": "2023-08-22T20:36:23.413Z",
+        "updated_at": "2023-08-23T03:14:32.260Z",
+        "outlet_id": "1d630b7c-fe7e-4b54-ba0a-f6c61302ff29",
+        "tool_id": "e7685c6e-491f-48c5-9e27-307acc28d1f1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "83537aa9-fc51-4ce8-bd5e-7e0d22f45640",
+        "email": "Dario78@gmail.com",
+        "firstName": "Frederik",
+        "lastName": "Mitchell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/353.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "708c3574-c86e-4aff-9b29-c628e0753557",
+        "email": "Benny34@hotmail.com",
+        "firstName": "Laurianne",
+        "lastName": "Schuster",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/965.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "002e0054-207d-4e11-8918-580911ce5116",
+        "email": "Elaina2@hotmail.com",
+        "firstName": "Janessa",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "61af91cd-f313-4940-8f48-a2da69299e49",
+        "email": "Elisa16@yahoo.com",
+        "firstName": "Pink",
+        "lastName": "Bradtke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42809553",
+        "tenantId": null
+      },
+      {
+        "reference": "0acab2f5-0571-41e1-8a54-e52b0d48f37f",
+        "email": "Samara.Roberts26@gmail.com",
+        "firstName": "Adrien",
+        "lastName": "Runolfsdottir",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/161.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "id": [
+      {
+        "id": "c820c333-4045-4915-bbdf-adb66855d292",
+        "created_at": "2023-08-22T09:12:29.466Z",
+        "updated_at": "2023-08-22T06:32:15.546Z"
+      },
+      {
+        "id": "4927979c-e4a9-4a5d-9a76-a7a98b958001",
+        "created_at": "2023-08-23T02:30:35.672Z",
+        "updated_at": "2023-08-23T01:11:26.071Z"
+      },
+      {
+        "id": "a39023d7-d4c4-4a51-b89c-08146c0e7c5e",
+        "created_at": "2023-08-22T11:47:12.279Z",
+        "updated_at": "2023-08-22T05:31:54.227Z"
+      },
+      {
+        "id": "3fadfb16-794c-42d3-8562-f64fdc1cae30",
+        "created_at": "2023-08-22T23:46:53.432Z",
+        "updated_at": "2023-08-23T03:13:03.249Z"
+      },
+      {
+        "id": "1ef5ee8a-b476-42f3-b581-768324bb62b5",
+        "created_at": "2023-08-22T08:45:59.461Z",
+        "updated_at": "2023-08-22T17:38:25.727Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "cb50c898-b213-4c93-ba3a-83053b06238f",
+        "name": "CodeGenius",
+        "created_at": "2023-08-23T00:11:48.519Z",
+        "updated_at": "2023-08-22T13:36:32.817Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "65fccac2-d22d-4db1-8456-ab5787a875d7",
+        "name": "DataMaster",
+        "created_at": "2023-08-22T13:45:44.161Z",
+        "updated_at": "2023-08-22T11:26:45.092Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dd110d95-9b4c-470b-ae2d-e456244a915a",
+        "name": "TechAnalyzer",
+        "created_at": "2023-08-22T05:52:37.504Z",
+        "updated_at": "2023-08-22T13:04:32.862Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "96816033-3b80-4f40-8afc-3a8725085d49",
+        "name": "InnoCreator",
+        "created_at": "2023-08-23T03:19:48.312Z",
+        "updated_at": "2023-08-22T21:11:31.101Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9bd76b32-0f3d-4e50-bff9-7b4d5bb1e2c3",
+        "name": "ProToolKit",
+        "created_at": "2023-08-23T02:42:15.910Z",
+        "updated_at": "2023-08-22T17:34:27.168Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "9cdb44bc-a8bb-4fcc-afaf-d8a78dda0fa8",
+        "name": "TechMart",
+        "created_at": "2023-08-22T15:01:40.259Z",
+        "updated_at": "2023-08-22T22:32:03.360Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "35314a78-27fe-4efa-acf7-711ca69cd273",
+        "name": "GadgetZone",
+        "created_at": "2023-08-22T07:57:28.726Z",
+        "updated_at": "2023-08-22T19:12:36.959Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c6e6c779-36a5-403b-a08f-242e8e100085",
+        "name": "ElectroWorld",
+        "created_at": "2023-08-23T03:04:49.245Z",
+        "updated_at": "2023-08-22T13:39:34.520Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7772812c-0b62-4222-aa95-d85b67a217ca",
+        "name": "DigitalDepot",
+        "created_at": "2023-08-23T04:01:00.941Z",
+        "updated_at": "2023-08-23T02:13:46.314Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a5e0f87e-ce0f-4484-9d05-120a6a404ff4",
+        "name": "SmartShop",
+        "created_at": "2023-08-22T16:36:39.636Z",
+        "updated_at": "2023-08-22T15:31:05.368Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "224f27aa-f636-4352-8129-80e710a4d1fa",
+        "rental_date": "2023-08-22T19:09:32.621Z",
+        "return_date": "2023-08-23T02:01:11.169Z",
+        "created_at": "2023-08-22T11:48:18.061Z",
+        "updated_at": "2023-08-22T23:09:57.943Z",
+        "outlet_id": "9cdb44bc-a8bb-4fcc-afaf-d8a78dda0fa8",
+        "tool_id": "96816033-3b80-4f40-8afc-3a8725085d49",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "106fcac8-241c-4412-a87b-8659b3d359dc",
+        "rental_date": "2023-08-22T16:57:50.630Z",
+        "return_date": "2023-08-22T23:35:49.378Z",
+        "created_at": "2023-08-23T00:43:14.851Z",
+        "updated_at": "2023-08-22T11:12:36.531Z",
+        "outlet_id": "c6e6c779-36a5-403b-a08f-242e8e100085",
+        "tool_id": "cb50c898-b213-4c93-ba3a-83053b06238f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53c2f16a-6177-4fab-b6a4-28b977817f9c",
+        "rental_date": "2023-08-23T01:34:43.096Z",
+        "return_date": "2023-08-22T07:19:34.397Z",
+        "created_at": "2023-08-22T19:22:21.553Z",
+        "updated_at": "2023-08-22T08:09:33.367Z",
+        "outlet_id": "a5e0f87e-ce0f-4484-9d05-120a6a404ff4",
+        "tool_id": "dd110d95-9b4c-470b-ae2d-e456244a915a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf5e321e-f732-4bf5-8d3e-7315fe666edc",
+        "rental_date": "2023-08-23T00:33:33.677Z",
+        "return_date": "2023-08-22T18:11:38.345Z",
+        "created_at": "2023-08-22T21:38:07.787Z",
+        "updated_at": "2023-08-22T06:00:30.418Z",
+        "outlet_id": "c6e6c779-36a5-403b-a08f-242e8e100085",
+        "tool_id": "dd110d95-9b4c-470b-ae2d-e456244a915a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "080948c2-3402-4c23-958e-a7c0cdf20b6e",
+        "rental_date": "2023-08-22T18:09:02.905Z",
+        "return_date": "2023-08-22T19:11:54.859Z",
+        "created_at": "2023-08-22T16:08:17.415Z",
+        "updated_at": "2023-08-22T12:28:54.713Z",
+        "outlet_id": "a5e0f87e-ce0f-4484-9d05-120a6a404ff4",
+        "tool_id": "cb50c898-b213-4c93-ba3a-83053b06238f",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e18c0637-6298-4ba4-b91a-4090d25bffb6",
+        "email": "Lucile_Mertz91@yahoo.com",
+        "firstName": "Laurel",
+        "lastName": "Cronin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/646.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9a54c208-150d-4839-a414-9523eb2ada32",
+        "email": "Citlalli_Kovacek@yahoo.com",
+        "firstName": "Josiah",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/41778926",
+        "tenantId": null
+      },
+      {
+        "reference": "25694b6c-23ef-44b9-ba24-ca51bf5cbbfc",
+        "email": "Esmeralda17@hotmail.com",
+        "firstName": "Adella",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82278391",
+        "tenantId": null
+      },
+      {
+        "reference": "4fb2897b-5468-47bb-8819-676ab71d295f",
+        "email": "Gussie_Mante57@gmail.com",
+        "firstName": "Kristian",
+        "lastName": "Legros",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/991.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b9f03b27-39b5-4635-b137-dfe4227e2de1",
+        "email": "Velda75@gmail.com",
+        "firstName": "Fredrick",
+        "lastName": "Monahan",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49219821",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "id": [
+      {
+        "id": "f8a9a57b-b79a-43e0-b57d-d529c1e2eaee",
+        "created_at": "2023-08-23T01:14:44.970Z",
+        "updated_at": "2023-08-22T20:44:05.543Z"
+      },
+      {
+        "id": "55da4533-f6e0-4535-b694-1598b1281924",
+        "created_at": "2023-08-23T02:26:51.575Z",
+        "updated_at": "2023-08-23T03:31:26.781Z"
+      },
+      {
+        "id": "68e7cd5b-f479-4836-8cc2-1ba8cf5d51ac",
+        "created_at": "2023-08-22T23:53:55.822Z",
+        "updated_at": "2023-08-22T11:43:29.512Z"
+      },
+      {
+        "id": "0f11ee17-1aa9-4596-a40d-9c14d02e1405",
+        "created_at": "2023-08-23T03:01:54.118Z",
+        "updated_at": "2023-08-22T22:31:32.607Z"
+      },
+      {
+        "id": "f694c548-c757-4f35-a607-7c4ecec5a4ae",
+        "created_at": "2023-08-23T02:53:15.911Z",
+        "updated_at": "2023-08-22T20:46:16.323Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "2371e2b6-71d1-42c3-969d-1f72fe884c79",
+        "name": "Tool 1",
+        "created_at": "2023-08-22T05:36:27.611Z",
+        "updated_at": "2023-08-22T11:18:30.709Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "26019923-bf6e-464e-a928-7bc61a68bb5b",
+        "name": "Tool 2",
+        "created_at": "2023-08-22T19:16:38.367Z",
+        "updated_at": "2023-08-22T23:16:03.545Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4e4bea1e-2c23-4a0d-8fe9-c1740764d9e1",
+        "name": "Tool 3",
+        "created_at": "2023-08-22T07:08:03.642Z",
+        "updated_at": "2023-08-23T01:33:42.829Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6d9fa26e-b4e4-4e50-b440-0d1bdba58779",
+        "name": "Tool 4",
+        "created_at": "2023-08-22T20:28:08.427Z",
+        "updated_at": "2023-08-23T02:01:54.452Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4925785c-9ef2-4626-9031-2a6a3d56cad8",
+        "name": "Tool 5",
+        "created_at": "2023-08-22T15:21:16.402Z",
+        "updated_at": "2023-08-22T12:00:53.400Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "53d514a4-fe30-48f9-8719-005388d70c0f",
+        "name": "Outlet 1",
+        "created_at": "2023-08-22T12:24:05.260Z",
+        "updated_at": "2023-08-22T15:27:08.089Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6df9d124-762f-4593-8106-873fd3eaddfa",
+        "name": "Outlet 2",
+        "created_at": "2023-08-23T02:11:09.518Z",
+        "updated_at": "2023-08-22T05:50:57.514Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b15fedb6-102d-49ba-a61d-1e0b9262cba7",
+        "name": "Outlet 3",
+        "created_at": "2023-08-22T22:34:57.815Z",
+        "updated_at": "2023-08-22T11:14:52.402Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "8298599f-f498-42df-b65f-a828676d8103",
+        "name": "Outlet 4",
+        "created_at": "2023-08-22T22:45:54.690Z",
+        "updated_at": "2023-08-22T09:59:19.422Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "732fc978-9c77-4c6b-aafd-d188da1f2c1c",
+        "name": "Outlet 5",
+        "created_at": "2023-08-22T10:08:05.221Z",
+        "updated_at": "2023-08-22T16:50:54.663Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "718c37f4-c1d7-49c9-ab24-85e98b5b8a34",
+        "rental_date": "2023-08-22T08:24:33.612Z",
+        "return_date": "2023-08-22T14:28:39.900Z",
+        "created_at": "2023-08-22T07:27:48.659Z",
+        "updated_at": "2023-08-23T02:38:19.312Z",
+        "outlet_id": "6df9d124-762f-4593-8106-873fd3eaddfa",
+        "tool_id": "26019923-bf6e-464e-a928-7bc61a68bb5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64661ad1-d692-46ca-b4a5-0b95c501f8f3",
+        "rental_date": "2023-08-22T06:51:33.618Z",
+        "return_date": "2023-08-22T22:55:19.432Z",
+        "created_at": "2023-08-22T12:11:03.445Z",
+        "updated_at": "2023-08-22T11:13:44.161Z",
+        "outlet_id": "8298599f-f498-42df-b65f-a828676d8103",
+        "tool_id": "4e4bea1e-2c23-4a0d-8fe9-c1740764d9e1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71d21ad9-f17a-4838-9949-bf1cee588986",
+        "rental_date": "2023-08-22T22:03:28.525Z",
+        "return_date": "2023-08-22T13:38:12.455Z",
+        "created_at": "2023-08-22T21:09:08.431Z",
+        "updated_at": "2023-08-22T12:14:21.550Z",
+        "outlet_id": "8298599f-f498-42df-b65f-a828676d8103",
+        "tool_id": "26019923-bf6e-464e-a928-7bc61a68bb5b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4dc5c6e-9cfa-4fd9-a7af-faa471fd3ece",
+        "rental_date": "2023-08-22T18:02:17.893Z",
+        "return_date": "2023-08-22T11:44:11.569Z",
+        "created_at": "2023-08-22T19:27:04.912Z",
+        "updated_at": "2023-08-22T18:01:55.756Z",
+        "outlet_id": "6df9d124-762f-4593-8106-873fd3eaddfa",
+        "tool_id": "2371e2b6-71d1-42c3-969d-1f72fe884c79",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b94a83a8-fc7b-49a4-9b29-a664fe41645c",
+        "rental_date": "2023-08-23T02:39:59.527Z",
+        "return_date": "2023-08-22T13:35:19.125Z",
+        "created_at": "2023-08-22T14:48:56.102Z",
+        "updated_at": "2023-08-22T15:33:53.056Z",
+        "outlet_id": "b15fedb6-102d-49ba-a61d-1e0b9262cba7",
+        "tool_id": "4925785c-9ef2-4626-9031-2a6a3d56cad8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "4196ecc0-f513-4950-ba6c-84a1cbd0cfce",
+        "email": "Margie_Lynch@hotmail.com",
+        "firstName": "Deonte",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93511424",
+        "tenantId": null
+      },
+      {
+        "reference": "471f8514-853e-4982-9279-11801c2442f5",
+        "email": "Santos.Rolfson83@gmail.com",
+        "firstName": "Courtney",
+        "lastName": "Purdy",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/689.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ad84bf98-a812-457b-a061-a04ef7a50468",
+        "email": "Faye.Walsh18@yahoo.com",
+        "firstName": "Lauretta",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97753757",
+        "tenantId": null
+      },
+      {
+        "reference": "d0ba02f2-6572-4e27-995c-72a212e5fb6c",
+        "email": "Chaz.Larkin@yahoo.com",
+        "firstName": "Owen",
+        "lastName": "Russel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/94.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fb59c0f3-c51b-431f-955a-58bc0cac5073",
+        "email": "Gideon.Marvin@hotmail.com",
+        "firstName": "Green",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/584.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "id": [
+      {
+        "id": "538deb51-1e32-4c19-adef-56f7159f7f01",
+        "created_at": "2023-08-22T21:53:53.547Z",
+        "updated_at": "2023-08-22T09:38:59.163Z"
+      },
+      {
+        "id": "e1556acd-94c1-4c43-b416-712456628b11",
+        "created_at": "2023-08-22T22:08:44.601Z",
+        "updated_at": "2023-08-22T12:47:53.193Z"
+      },
+      {
+        "id": "977d4b1f-489e-488d-ba36-75de8663fb65",
+        "created_at": "2023-08-22T19:20:41.604Z",
+        "updated_at": "2023-08-22T23:48:09.661Z"
+      },
+      {
+        "id": "f0152f53-1549-464b-8048-79fc5d6fdb59",
+        "created_at": "2023-08-23T02:35:37.739Z",
+        "updated_at": "2023-08-22T16:14:33.575Z"
+      },
+      {
+        "id": "bc8852f8-3719-4d55-8423-6d304a99ac63",
+        "created_at": "2023-08-22T21:58:47.060Z",
+        "updated_at": "2023-08-22T20:47:26.778Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "b287dba3-773d-4016-accc-4bd1275f8a65",
+        "name": "Code Editor",
+        "created_at": "2023-08-23T00:11:43.558Z",
+        "updated_at": "2023-08-22T19:02:26.710Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1528a820-2bcd-4541-afdd-7f334cc354e9",
+        "name": "Project Management Tool",
+        "created_at": "2023-08-22T08:22:46.872Z",
+        "updated_at": "2023-08-22T08:10:38.657Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "645a31a8-15be-43a0-80ac-52992f5edc61",
+        "name": "Design Software",
+        "created_at": "2023-08-22T14:40:04.010Z",
+        "updated_at": "2023-08-22T21:56:36.997Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b6eaab4a-f247-49c1-9d28-3dd538c20c95",
+        "name": "Version Control System",
+        "created_at": "2023-08-22T12:19:00.807Z",
+        "updated_at": "2023-08-22T21:30:51.098Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ccc460a3-cb00-4922-b37f-42beadc99dbd",
+        "name": "Collaboration Platform",
+        "created_at": "2023-08-22T19:55:46.923Z",
+        "updated_at": "2023-08-23T03:59:59.480Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "d780466a-ec8e-4264-9cf7-ae9bca87d14f",
+        "name": "Retail Store",
+        "created_at": "2023-08-22T04:55:27.627Z",
+        "updated_at": "2023-08-23T03:01:45.679Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b7b70df0-f8e4-42ff-a8c7-765ea7624dda",
+        "name": "Online Marketplace",
+        "created_at": "2023-08-22T10:43:35.462Z",
+        "updated_at": "2023-08-22T09:11:47.063Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c76d9356-df6e-4c60-b3ca-b2a50ede80c3",
+        "name": "Outlet Mall",
+        "created_at": "2023-08-22T23:02:21.400Z",
+        "updated_at": "2023-08-22T17:52:07.006Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ae56bd0d-c968-4d07-beca-619b21c25ef8",
+        "name": "Department Store",
+        "created_at": "2023-08-22T09:24:04.308Z",
+        "updated_at": "2023-08-22T10:30:10.751Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "41379b44-ba1b-49b1-a9df-a72683136173",
+        "name": "Shopping Center",
+        "created_at": "2023-08-22T22:09:47.857Z",
+        "updated_at": "2023-08-22T09:44:22.141Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "c09d0655-6d05-40bd-9afe-a3f81115c45f",
+        "rental_date": "2023-08-22T07:08:52.859Z",
+        "return_date": "2023-08-22T14:49:43.527Z",
+        "created_at": "2023-08-22T19:49:11.165Z",
+        "updated_at": "2023-08-23T01:38:59.108Z",
+        "outlet_id": "c76d9356-df6e-4c60-b3ca-b2a50ede80c3",
+        "tool_id": "645a31a8-15be-43a0-80ac-52992f5edc61",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c43acce-bb2f-44f0-b643-5317271e8d32",
+        "rental_date": "2023-08-22T13:05:44.367Z",
+        "return_date": "2023-08-22T08:46:49.280Z",
+        "created_at": "2023-08-22T22:52:49.805Z",
+        "updated_at": "2023-08-22T16:00:06.203Z",
+        "outlet_id": "41379b44-ba1b-49b1-a9df-a72683136173",
+        "tool_id": "1528a820-2bcd-4541-afdd-7f334cc354e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb844e6d-cceb-4c81-a092-91a4b1ba1c18",
+        "rental_date": "2023-08-22T20:10:21.037Z",
+        "return_date": "2023-08-22T09:10:20.895Z",
+        "created_at": "2023-08-22T14:10:42.539Z",
+        "updated_at": "2023-08-22T08:42:14.863Z",
+        "outlet_id": "d780466a-ec8e-4264-9cf7-ae9bca87d14f",
+        "tool_id": "b6eaab4a-f247-49c1-9d28-3dd538c20c95",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c71b9b3a-898f-44fd-b515-c58a1bd181c8",
+        "rental_date": "2023-08-23T03:49:51.889Z",
+        "return_date": "2023-08-22T17:00:18.550Z",
+        "created_at": "2023-08-22T16:11:56.961Z",
+        "updated_at": "2023-08-22T19:22:25.638Z",
+        "outlet_id": "ae56bd0d-c968-4d07-beca-619b21c25ef8",
+        "tool_id": "b287dba3-773d-4016-accc-4bd1275f8a65",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e0af8ff-fa59-4d24-b491-db0555fb826f",
+        "rental_date": "2023-08-23T01:53:07.145Z",
+        "return_date": "2023-08-22T21:39:11.972Z",
+        "created_at": "2023-08-23T00:50:54.423Z",
+        "updated_at": "2023-08-23T00:28:30.168Z",
+        "outlet_id": "c76d9356-df6e-4c60-b3ca-b2a50ede80c3",
+        "tool_id": "b6eaab4a-f247-49c1-9d28-3dd538c20c95",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0ddf3415-064c-493a-bd08-6ab0444847d0",
+        "email": "Bailee3@gmail.com",
+        "firstName": "Stefan",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84009684",
+        "tenantId": null
+      },
+      {
+        "reference": "ddaa1ac2-87ff-43b0-821a-1f2a6f39efd0",
+        "email": "Jackie63@yahoo.com",
+        "firstName": "Jessy",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1109.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "13bfe7ea-ef3c-437e-b38c-82813903a9ba",
+        "email": "Cristian_Grady@hotmail.com",
+        "firstName": "Keira",
+        "lastName": "Christiansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/535.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ba036794-5429-4072-9974-38f2874b61dd",
+        "email": "Dusty.McClure42@gmail.com",
+        "firstName": "Jeanne",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89661249",
+        "tenantId": null
+      },
+      {
+        "reference": "4fb0caaa-8714-4d9b-a0d0-8519504ab6cf",
+        "email": "Claude.Dickinson@hotmail.com",
+        "firstName": "Alvera",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1055.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "id": [
+      {
+        "id": "fd4ef94a-0495-4b1e-bb0b-fe1811db8542",
+        "created_at": "2023-08-22T11:38:42.284Z",
+        "updated_at": "2023-08-22T14:52:02.444Z"
+      },
+      {
+        "id": "93d92e75-8df5-411a-ba47-5ddbb84f9577",
+        "created_at": "2023-08-22T20:49:13.899Z",
+        "updated_at": "2023-08-23T00:29:07.799Z"
+      },
+      {
+        "id": "776a17c1-ba9a-496f-84b1-062a160177ef",
+        "created_at": "2023-08-22T08:46:54.589Z",
+        "updated_at": "2023-08-22T13:47:31.746Z"
+      },
+      {
+        "id": "3809d562-3e80-492a-b88a-086ac63152a1",
+        "created_at": "2023-08-22T21:41:23.305Z",
+        "updated_at": "2023-08-22T23:12:26.213Z"
+      },
+      {
+        "id": "17243cca-c1bd-4f85-a182-50d15d172501",
+        "created_at": "2023-08-22T16:01:52.872Z",
+        "updated_at": "2023-08-22T16:37:26.688Z"
+      }
+    ],
+    "tool": [
+      {
+        "id": "dc261940-d83e-4d60-aafd-23b82f437995",
+        "name": "Productivity Pro",
+        "created_at": "2023-08-22T20:22:57.127Z",
+        "updated_at": "2023-08-23T00:31:13.121Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e2dd263d-6a85-4dda-861a-8f86e77a70fd",
+        "name": "Tech Toolkit",
+        "created_at": "2023-08-23T02:50:16.143Z",
+        "updated_at": "2023-08-23T01:15:47.346Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "80feff42-5f30-4e75-99f7-6f02c884ab09",
+        "name": "Innovation Wizard",
+        "created_at": "2023-08-22T18:34:26.612Z",
+        "updated_at": "2023-08-22T12:43:54.659Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1a0923f6-8790-48e8-95f2-cebe5a028311",
+        "name": "Efficiency Master",
+        "created_at": "2023-08-22T09:15:42.875Z",
+        "updated_at": "2023-08-22T07:06:27.644Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "63622f66-e474-4210-b02d-306372354cc4",
+        "name": "Solution Finder",
+        "created_at": "2023-08-22T23:04:09.330Z",
+        "updated_at": "2023-08-22T07:27:07.576Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "outlet": [
+      {
+        "id": "d5ed29f3-ce41-4f48-b3f0-90ad5f88822f",
+        "name": "Main Store",
+        "created_at": "2023-08-22T14:06:09.242Z",
+        "updated_at": "2023-08-22T18:52:23.968Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f25d2a13-47a8-4668-a5c8-ad75d7022dbe",
+        "name": "Outlet 1",
+        "created_at": "2023-08-22T22:47:59.118Z",
+        "updated_at": "2023-08-22T15:19:16.191Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "c663676b-1973-4a88-8c6c-07d511ffe196",
+        "name": "Branch 2",
+        "created_at": "2023-08-22T23:31:20.472Z",
+        "updated_at": "2023-08-22T13:52:04.930Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "59c96596-0fb8-4765-8d8c-e6f0919e08b3",
+        "name": "Shop 3",
+        "created_at": "2023-08-22T09:08:35.444Z",
+        "updated_at": "2023-08-22T18:54:31.517Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "71d3e7dc-2195-4678-acfe-2dc0aaa354d4",
+        "name": "Retail Outlet",
+        "created_at": "2023-08-23T02:04:36.373Z",
+        "updated_at": "2023-08-22T04:28:52.447Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "rental": [
+      {
+        "id": "e148599d-17bb-49c2-91a3-18d1762cc4d5",
+        "rental_date": "2023-08-22T09:06:26.377Z",
+        "return_date": "2023-08-23T02:02:00.628Z",
+        "created_at": "2023-08-22T11:59:24.989Z",
+        "updated_at": "2023-08-23T00:05:14.870Z",
+        "outlet_id": "d5ed29f3-ce41-4f48-b3f0-90ad5f88822f",
+        "tool_id": "80feff42-5f30-4e75-99f7-6f02c884ab09",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4301e61e-845c-4ad4-bb60-045397cc10cc",
+        "rental_date": "2023-08-22T07:13:56.843Z",
+        "return_date": "2023-08-22T07:10:06.686Z",
+        "created_at": "2023-08-22T07:32:20.934Z",
+        "updated_at": "2023-08-22T18:54:02.877Z",
+        "outlet_id": "59c96596-0fb8-4765-8d8c-e6f0919e08b3",
+        "tool_id": "e2dd263d-6a85-4dda-861a-8f86e77a70fd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68943294-0176-47c1-b2da-8c68a25288e0",
+        "rental_date": "2023-08-22T12:16:16.048Z",
+        "return_date": "2023-08-22T06:58:36.262Z",
+        "created_at": "2023-08-22T05:26:25.644Z",
+        "updated_at": "2023-08-22T12:34:58.165Z",
+        "outlet_id": "71d3e7dc-2195-4678-acfe-2dc0aaa354d4",
+        "tool_id": "dc261940-d83e-4d60-aafd-23b82f437995",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "267ebbcb-0aa8-4dee-a56a-01b5b14efb0b",
+        "rental_date": "2023-08-23T01:14:06.968Z",
+        "return_date": "2023-08-23T03:51:40.459Z",
+        "created_at": "2023-08-22T10:59:26.192Z",
+        "updated_at": "2023-08-22T22:08:36.527Z",
+        "outlet_id": "c663676b-1973-4a88-8c6c-07d511ffe196",
+        "tool_id": "80feff42-5f30-4e75-99f7-6f02c884ab09",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "175fb61c-4a67-4361-91af-0c72ac25cfee",
+        "rental_date": "2023-08-22T11:05:17.142Z",
+        "return_date": "2023-08-22T05:25:06.328Z",
+        "created_at": "2023-08-22T08:27:35.446Z",
+        "updated_at": "2023-08-23T00:12:11.796Z",
+        "outlet_id": "f25d2a13-47a8-4668-a5c8-ad75d7022dbe",
+        "tool_id": "63622f66-e474-4210-b02d-306372354cc4",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3b19404b-8d11-4e8a-9fb1-547aed63986a",
+        "email": "Saul_Schiller8@yahoo.com",
+        "firstName": "April",
+        "lastName": "Lang",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28438223",
+        "tenantId": null
+      },
+      {
+        "reference": "7a710f3b-0838-4f24-af86-3eec2bf34c89",
+        "email": "Cheyanne28@yahoo.com",
+        "firstName": "Lexie",
+        "lastName": "Jaskolski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1174.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a454b230-e91d-46c2-9274-e7767d3b0c98",
+        "email": "Kirstin_Lind@hotmail.com",
+        "firstName": "Braden",
+        "lastName": "Goldner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1105.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "146cfb98-fa52-483c-884b-afd5c0977c2f",
+        "email": "Myrtice82@hotmail.com",
+        "firstName": "Liza",
+        "lastName": "Reinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/723.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "afb9da79-5ece-43a5-aa32-4dbdb7e3e37c",
+        "email": "Keenan_Jacobi80@gmail.com",
+        "firstName": "Myrtice",
+        "lastName": "Towne",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73175763",
+        "tenantId": null
+      }
+    ]
+  }
+]
